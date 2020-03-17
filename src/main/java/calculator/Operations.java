@@ -1,31 +1,31 @@
 package calculator;
 
-
 public class Operations {
-    double a;
-    double b;
 
-    public Operations(double a, double b) {
-        this.a = a;
-        this.b = b;
+
+        if (NumbersOfOperations.number > 1 && NumbersOfOperations.number < 4){
+        switch (NumbersOfOperations.number) {
+            case 1:
+                return NumberToOperations.a + NumberToOperations.b;
+            break;
+            case 2:
+                return a - b;
+            break;
+            case 3:
+                return a * b;
+            break;
+            case 4:
+                if (b != 0) {
+                    return a / b;
+                } else {
+                }
+                break;
+        }
     }
 
-
-    public double addition() {
-        return a + b;
-    }
-
-    public double description() {
-        return a - b;
-    }
-
-    public double multiplication() {
-        return a * b;
-    }
-
-    public double division() {
-        return a / b;
-    }
+        return 0;
+}
 
 
 }
+
