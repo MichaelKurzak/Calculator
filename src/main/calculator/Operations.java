@@ -2,8 +2,9 @@ package calculator;
 
 
 public class Operations {
-    double a;
-    double b;
+
+    public double a;
+    public double b;
 
     public Operations(double a, double b) {
         this.a = a;
